@@ -7,8 +7,8 @@ JSONL-driven генератор резюме. Данные — в `resume.jsonl`
 Нужен [uv](https://docs.astral.sh/uv/). Зависимости и Python (3.13) он подтянет сам.
 
 ```bash
-git clone https://github.com/<you>/resume-generator.git
-cd resume-generator
+git clone https://github.com/Gamer201760/summary-generator.git
+cd summary-generator
 uv run resume.py validate
 ```
 

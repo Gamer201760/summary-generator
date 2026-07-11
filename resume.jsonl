@@ -1,0 +1,12 @@
+# Resume data. One JSON object per line, discriminated by "type".
+# Lines starting with # and blank lines are ignored. See .claude/skills/resume-fill/SKILL.md
+# This is sample data — replace it with your own.
+{"type": "profile", "name": "Иван Иванов", "title": "Python Backend Engineer", "email": "ivan.ivanov@example.com", "phone": "+7 900 000 00 00", "location": "Москва, Россия", "links": [{"label": "GitHub", "url": "https://github.com/example"}, {"label": "Telegram", "url": "https://t.me/example"}]}
+{"type": "experience", "title": "Python Backend Engineer", "company": "Пример-Компания", "start": "Январь 2023", "end": "наст. время", "highlights": ["С нуля спроектировал и реализовал B2B SaaS-платформу: одна кодовая база работает в облаке и в on-prem-контуре заказчика, данные клиентов изолированы.", "Построил систему доступов: регистрация компании, приглашение сотрудников, роли и журнал действий.", "Выстроил архитектуру с чёткими границами слоёв и тестами (unit и integration)."]}
+{"type": "project", "name": "Customer Data Platform", "description": "Событийная платформа клиентских данных для e-commerce.", "highlights": ["Спроектировал событийную платформу из 3 микросервисов на Python; руководил командой и архитектурой.", "Реализовал ядро на FastAPI: объединение идентичностей, профили и сегментация поверх PostgreSQL.", "Построил асинхронный конвейер обработки событий на Apache Kafka с очередью недоставленных сообщений."]}
+{"type": "education", "degree": "Бакалавр, Прикладная математика и информатика", "institution": "Пример-Университет", "location": "Москва", "start": "2018", "end": "2022"}
+{"type": "skill", "category": "Языки", "items": ["Python", "SQL"]}
+{"type": "skill", "category": "Веб и API", "items": ["FastAPI", "gRPC", "REST API", "SQLAlchemy"]}
+{"type": "skill", "category": "Данные и брокеры", "items": ["PostgreSQL", "Redis", "Apache Kafka", "MongoDB"]}
+{"type": "skill", "category": "Инфраструктура", "items": ["Docker", "Docker Compose", "CI/CD", "S3 и MinIO"]}
+{"type": "skill", "category": "Практики", "items": ["Clean Architecture", "SOLID", "Pytest", "TDD", "Git"]}

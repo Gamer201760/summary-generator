@@ -1,0 +1,17 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Generated resume exports (the .jsonl is the source of truth)
+*.pdf
+*.md
+*.txt
+!README.md
+!.claude/skills/resume-fill/SKILL.md

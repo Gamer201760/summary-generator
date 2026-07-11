@@ -2,6 +2,12 @@
 
 JSONL-driven генератор резюме. Данные — в `resume.jsonl`, экспорт в PDF / Markdown / текст одной командой.
 
+## Пример
+
+PDF, собранный из `resume.jsonl` (вымышленные данные):
+
+![Пример резюме](docs/example.png)
+
 ## Установка
 
 Нужен [uv](https://docs.astral.sh/uv/). Зависимости и Python (3.13) он подтянет сам.
